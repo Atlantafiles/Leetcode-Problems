@@ -11,9 +11,9 @@ int countOccurrences(std::vector <int> &arr, int x) {
 
 int main()
 {
-    std::vector <int> Arr = {1,1,2,2,2,2,3,3,4,};
+    std::vector <int> Ar = {1,1,2,2,2,2,3,3,4,};
     int target = 2;
-    int occ = countOccurrences(Arr,target);
+    int occ = countOccurrences(Ar,target);
     std::cout<<occ;
     return 0;
 }
